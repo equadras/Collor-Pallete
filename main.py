@@ -9,9 +9,6 @@ import cv2
 import extcolors
 from colormap import rgb2hex
 
-
-
-
 def exact_color(input_image, resize, tolerance, zoom):
     #background
     bg = 'bg.png'
